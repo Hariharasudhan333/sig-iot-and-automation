@@ -35,3 +35,31 @@ Wait for the ESP32 to establish a WiFi connection.
 Once connected, check the Serial Monitor.
 The assigned IP address will be displayed.
 ## Wokwi simulation[https://wokwi.com/projects/476560837443143681]
+
+# Day-6-
+Day 6: Web-Controlled LED
+In this project, we will connect the ESP32 to WiFi and create a simple web server to control the built-in LED. A web page will provide options to turn the LED ON and OFF remotely.
+
+Hardware Required
+ESP32 DevKit v1
+Built-in LED connected to GPIO 2
+No additional components are required.
+
+WiFi Configuration
+Network: Wokwi-GUEST
+Password: Leave blank
+
+Wokwi Simulation
+Start the Wokwi simulation.
+Open the Serial Monitor.
+Wait for the ESP32 to connect to the WiFi network.
+Copy the IP address displayed in the Serial Monitor.
+Open the IP address in a browser that can access the Wokwi simulation.
+Use the LED ON and LED OFF links to control the built-in LED.
+
+Web Server
+The ESP32 runs a web server on port 80.
+The following routes are used to control the LED:
+/ledon — Turns the LED ON.
+/ledoff — Turns the LED OFF.
+## Wokwi simulation[https://wokwi.com/projects/476561627774058497]
